@@ -35,7 +35,7 @@ namespace Edwin_Ramokolo_BurgerBuddy_BusinessLogic
             {
 
             }
-            return isSimulated; //TODO:
+            return isSimulated; 
         }
 
         public bool SimulateOrderCollection()
