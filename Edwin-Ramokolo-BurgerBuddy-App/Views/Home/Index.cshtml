@@ -1,0 +1,30 @@
+﻿<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/js/burger-buddy-main.js"></script>
+<script src="~/Scripts/js/orders-ajaxcalls.js"></script>
+
+<div class="jumbotron">
+    <h1>Burger Buddy (BB) </h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Force Simulate Orders</h2>
+        <p>This is used if you dont want to wait for creation of orders every 10 seconds :)</p>
+        <input id="btnSubmit" type="button" value="Create Random Orders" class="btn btn-primary btn-lg" />
+
+    </div>
+    <div class="col-md-4">
+        <h2>Preparing Orders</h2>
+        <ul id="listPreparingOrder" class="list-group">
+            
+            
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Burger Buddy (BB) Information</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><span id="numberOfToys"></span></li>
+            <li class="list-group-item">Number of Customers Waiting: <span id="numberOfWaitingCustomers"></span></li>
+            <li class="list-group-item">Currently The Store is  <span id="StoreStatus"></span></li>
+        </ul>
+    </div>
+</div>
